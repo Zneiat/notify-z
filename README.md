@@ -13,7 +13,7 @@ A Simple notify jQuery Plug-ins.
 <link href="/assets/notify.css" rel="stylesheet">
 <script src="/assets/notify.js"></script>
 ```
-P.S. 其实文件很小，可以放入自己的项目中.
+P.S. 其实代码不多，可以放入自己的项目里.
 
 ### 调用
 ```javascript
