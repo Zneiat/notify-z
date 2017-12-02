@@ -1,0 +1,85 @@
+/* zneiat/notify-z */
+.notify-layer {
+    position: fixed;
+    top: 75px;
+    right: 3rem;
+    width: 280px;
+    z-index: 1001;
+    opacity: .83;
+}
+
+.notify-layer .notify-item {
+    display: block;
+    overflow: hidden;
+    background-color: #2c2c2c;
+    border-color: #2c2c2c;
+    color: #FFF;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.notify-layer .notify-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.notify-layer .notify-item.type-s {
+    color: #FFF;
+    background: #57d59f;
+}
+
+.notify-layer .notify-item.type-e {
+    color: #FFF;
+    background: #ff6f6c;
+}
+
+.notify-layer .notify-item.type-w {
+    color: #FFF;
+    background: #ffc721;
+}
+
+.notify-layer .notify-item.type-i {
+    color: #FFF;
+    background: #2ebcfc;
+}
+
+.notify-layer .notify-item p {
+    line-height: 1.8;
+    padding: 10px 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.notify-anim-fade-in {
+    -webkit-animation-name: notifyFadeIn;
+    animation-name: notifyFadeIn;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+}
+
+.notify-anim-fade-out {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+    -webkit-animation-duration: .2s;
+    animation-duration: .2s;
+}
+
+@keyframes notifyFadeIn {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes notifyFadeOut {
+    100% {
+        opacity: 0;
+    }
+
+    0% {
+    }
+}
