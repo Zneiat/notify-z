@@ -3,7 +3,7 @@
 <img src="https://raw.githubusercontent.com/Zneiat/notify-z/master/docs/screenshot.png">
 </p>
 
-A Simple notify jQuery Plug-ins.
+A Simple Notify jQuery Plug-ins.
 一个简约美观的 jQuery 前端通知插件
 
 # 使用方法
